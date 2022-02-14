@@ -1,0 +1,14 @@
+.heroItemAnim-enter {
+	opacity: 0;
+}
+.heroItemAnim-enter-active {
+	opacity: 1;
+	transition: opacity 500ms ease-in;
+}
+.heroItemAnim-exit {
+	opacity: 1;
+	transition: opacity 500ms ease-in;
+}
+.heroItemAnim-exit-active {
+	opacity: 0;
+}
